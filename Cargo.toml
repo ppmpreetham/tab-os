@@ -1,0 +1,15 @@
+[package]
+name = "tab_os"
+version = "0.1.0"
+edition = "2021"
+authors=["Preetham Pemmasani"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
